@@ -1,0 +1,17 @@
+header {
+  background-color: var(--mainColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+header a {
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0 32px;
+  text-decoration: none;
+}

@@ -1,0 +1,41 @@
+#duvidas {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 80px;
+}
+
+.duvida {
+  position: relative;
+}
+
+.duvida h3 {
+  border: 2px solid var(--secondaryColor);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 24px;
+}
+
+.duvida img {
+  position: absolute;
+  top: 32px;
+  right: 24px;
+}
+
+.duvida .paragrafo {
+  border-right: 1px solid var(--secondaryColor);
+  border-left: 1px solid var(--secondaryColor);
+  border-bottom: 1px solid var(--secondaryColor);
+  border-radius: 0 0 8px 8px;
+  margin-top: -8px;
+  padding: 0 24px;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+// .paragrafo {
+//   height: fit-content;
+//   opacity: 1;
+//   padding: 24px;
+// }
