@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #263138;
 }
@@ -28,4 +32,5 @@ h2 {
 :root {
   --mainColor: #ff9a6c;
   --secondaryColor: #ff725e;
+  --thirdColor: #263138;
 }

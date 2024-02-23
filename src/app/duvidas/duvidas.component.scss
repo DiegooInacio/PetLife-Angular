@@ -6,6 +6,8 @@
 }
 
 .duvida {
+  width: 71.3125rem;
+  margin-bottom: 1.5rem;
   position: relative;
 }
 
@@ -28,10 +30,15 @@
   border-bottom: 1px solid var(--secondaryColor);
   border-radius: 0 0 8px 8px;
   margin-top: -8px;
-  padding: 0 24px;
   height: 0;
   overflow: hidden;
   transition: 0.5s;
+  height: fit-content;
+  opacity: 1;
+  padding: 5.8px;
+  &.active {
+    padding: 24px;
+  }
 }
 
 // .paragrafo {

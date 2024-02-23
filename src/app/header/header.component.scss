@@ -7,11 +7,13 @@ header {
   padding-bottom: 24px;
   padding-left: 80px;
   padding-right: 80px;
-}
-
-header a {
-  color: #ffffff;
-  font-weight: 600;
-  padding: 0 32px;
-  text-decoration: none;
+  nav {
+    display: flex;
+  }
+  a {
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0 32px;
+    text-decoration: none;
+  }
 }

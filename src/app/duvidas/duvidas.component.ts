@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './duvidas.component.scss',
 })
 export class DuvidasComponent {
-  ativar: boolean = true;
+  ativar: boolean = false;
 
   ativa: any = {
     first: false,
@@ -17,9 +17,9 @@ export class DuvidasComponent {
 
   ativarCaixa(i: number) {
     if (this.ativa[i] == true) {
-      this.ativa[i] = true;
-    } else {
       this.ativa[i] = false;
+    } else {
+      this.ativa[i] = true;
     }
   }
 }

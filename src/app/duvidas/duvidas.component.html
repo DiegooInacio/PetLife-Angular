@@ -13,9 +13,9 @@
         Quais serviços são oferecidos pela clínica da PetLife?
       </h3>
       <img src="./assets/arrow-down.svg" alt="" />
-      @if(ativa[0]){
-      <div class="paragrafo">
-        <p [classList]="ativa[0]">
+      <div [class.active]="ativa[0]" class="paragrafo">
+        @if(ativa[0]){
+        <p>
           A clínica da PetLife oferece uma ampla gama de serviços, incluindo
           consultas de rotina, vacinação, cirurgias, tratamento de doenças,
           cuidados odontológicos, atendimento de emergência 24 horas, programas
@@ -23,51 +23,51 @@
           objetivo é fornecer cuidados abrangentes e personalizados para
           garantir a saúde e o bem-estar do seu pet.
         </p>
+        }
       </div>
-      }
     </div>
     <div class="duvida">
       <h3 (click)="ativarCaixa(1)">
         Quais espécies de animais a clínica veterinária atende?
       </h3>
       <img src="./assets/arrow-down.svg" alt="" />
-      @if(ativa[1]) {
-      <div class="paragrafo">
-        <p [classList]="ativa[1]">
+      <div [class.active]="ativa[1]" class="paragrafo">
+        @if(ativa[1]) {
+        <p>
           A clínica veterinária da PetLife atende animais de estimação de todas
           as espécies, incluindo cães, gatos, pássaros, roedores e répteis.
           Nossos profissionais possuem conhecimento e experiência para cuidar de
           diferentes tipos de animais, oferecendo um atendimento especializado e
           dedicado a cada um deles.
         </p>
+        }
       </div>
-      }
     </div>
     <div class="duvida">
       <h3 (click)="ativarCaixa(2)">
         A clínica da PetLife possui serviços de emergência?
       </h3>
       <img src="./assets/arrow-down.svg" alt="" />
-      @if(ativa[2]) {
-      <div class="paragrafo">
-        <p [classList]="ativa[2]" (click)="ativarCaixa(2)">
+      <div [class.active]="ativa[2]" class="paragrafo">
+        @if(ativa[2]) {
+        <p>
           Sim, a clínica veterinária da PetLife oferece serviços de emergência
           24 horas. Se o seu animal de estimação precisar de atendimento
           veterinário imediato fora do horário de expediente, nossa equipe está
           pronta para ajudar, fornecendo cuidados urgentes e tratamento adequado
           para garantir o bem-estar do seu pet.
         </p>
+        }
       </div>
-      }
     </div>
     <div class="duvida">
       <h3 (click)="ativarCaixa(3)">
         A clínica oferece serviços de banho e tosa?
       </h3>
       <img src="./assets/arrow-down.svg" alt="" />
-      @if(ativa[3]) {
-      <div class="paragrafo">
-        <p [classList]="ativa[3]" (click)="ativarCaixa(3)">
+      <div [class.active]="ativa[3]" class="paragrafo">
+        @if(ativa[3]) {
+        <p>
           Sim, a clínica veterinária da PetLife oferece serviços profissionais
           de banho e tosa. Nossa equipe de profissionais experientes garante que
           seu pet receba cuidados adequados, usando produtos de alta qualidade e
@@ -75,8 +75,8 @@
           pele e pelagem do seu pet, além de proporcionar uma experiência
           relaxante e agradável para eles.
         </p>
+        }
       </div>
-      }
     </div>
   </div>
 </section>

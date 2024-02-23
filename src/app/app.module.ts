@@ -8,6 +8,8 @@ import { InicioComponent } from './inicio/inicio.component';
 import { ClinicaComponent } from './clinica/clinica.component';
 import { FarmaciaComponent } from './farmacia/farmacia.component';
 import { DuvidasComponent } from './duvidas/duvidas.component';
+import { FooterComponent } from './footer/footer.component';
+import { CopyrightComponent } from './copyright/copyright.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { DuvidasComponent } from './duvidas/duvidas.component';
     InicioComponent,
     ClinicaComponent,
     FarmaciaComponent,
-    DuvidasComponent
+    DuvidasComponent,
+    FooterComponent,
+    CopyrightComponent
   ],
   imports: [
     BrowserModule,
