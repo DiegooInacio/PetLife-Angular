@@ -1,13 +1,11 @@
 #farmacia {
   padding: 64px 80px;
   text-align: center;
-}
-
-#farmacia img {
-  margin: 64px auto;
-}
-
-#farmacia .paragrafo {
-  max-width: 950px;
-  margin: 0 auto;
+  img {
+    margin: 64px auto;
+  }
+  .paragrafo {
+    max-width: 950px;
+    margin: 0 auto;
+  }
 }

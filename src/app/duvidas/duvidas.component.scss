@@ -9,19 +9,17 @@
   width: 71.3125rem;
   margin-bottom: 1.5rem;
   position: relative;
-}
-
-.duvida h3 {
-  border: 2px solid var(--secondaryColor);
-  border-radius: 8px;
-  cursor: pointer;
-  padding: 24px;
-}
-
-.duvida img {
-  position: absolute;
-  top: 32px;
-  right: 24px;
+  h3 {
+    border: 2px solid var(--secondaryColor);
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px;
+  }
+  img {
+    position: absolute;
+    top: 32px;
+    right: 24px;
+  }
 }
 
 .duvida .paragrafo {
